@@ -6,9 +6,19 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "aos": "^2.3.4",
+    "axios": "^1.6.8",
+    "gsap": "^3.12.5",
+    "jquery": "^3.7.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-image-pan-zoom-rotate": "^1.6.0",
+    "react-router-dom": "^6.21.3",
     "react-scripts": "5.0.1",
+    "react-simple-typewriter": "^5.0.1",
+    "react-spring": "^9.7.3",
+    "react-zoom-pan-pinch": "^3.4.4",
+    "typed.js": "^2.1.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +44,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.2"
   }
 }
