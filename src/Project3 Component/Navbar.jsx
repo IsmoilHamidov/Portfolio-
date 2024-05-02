@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from "react";
 import Resume from "../Images/My CV_page-0001 (1).jpg"
-import { Link } from "react-router-dom";
 
 
 
 function Navbar() {
-    const [isScrolled, setIsScrolled] = useState(false); // Define isScrolled here
+    const [isScrolled, setIsScrolled] = useState(false); 
 
     useEffect(() => {
         const handleScroll = () => {

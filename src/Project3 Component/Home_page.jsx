@@ -4,9 +4,6 @@ import { useState, useEffect } from "react";
 import intro_img from "../Images/my_img2.jpg"
 import about_img from "../Images/about_img2-transformed.jpeg"
 import project_img1 from "../Images/Project_part_img1.png"
-import project_img2 from "../Images/Project_part_img2.png"
-import project_img3 from "../Images/Project_part_img3.png"
-import project_img4 from "../Images/Project_part_img4.png"
 import carusel_img1 from "../Images/carusel.png"
 import carusel_img2 from "../Images/carusel_img2.png"
 import carusel_img3 from "../Images/carusel_img3.png"
@@ -32,14 +29,11 @@ import p_p9 from "../Images/p_p9.1.jpg"
 import p_p10 from "../Images/p_p10.1.webp"
 import p_p11 from "../Images/p_p11.1.jpg"
 import p_p12 from "../Images/p_p12.1.webp"
-import $ from 'jquery';
 import { Typewriter } from "react-simple-typewriter";
 import Form_sending from "./Form_sending";
 import { Link } from "react-router-dom";
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // You'll also need to import the CSS for the animations
-
-// import "react-simple-typewriter/dist/index/css";
+import 'aos/dist/aos.css'; 
 
 
 
