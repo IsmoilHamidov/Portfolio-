@@ -27,9 +27,7 @@ const View = () => {
       <div className="View_container">
             <div className='view_left'>
 
-              <Link to="/Activity" className='View_btn'>
-                  <button><i className="fa-solid fa-star me-3"></i>Activities</button>
-              </Link>
+            
 
               <Link to="/" className='View_btn'>
                   <button> <i className="fa-solid fa-house me-3"></i>Home</button>

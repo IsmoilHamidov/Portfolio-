@@ -3,7 +3,6 @@ import Navbar from "./Navbar";
 import { useState, useEffect } from "react";
 import intro_img from "../Images/my_img2.jpg"
 import about_img from "../Images/about_img2-transformed.jpeg"
-import project_img1 from "../Images/Project_part_img1.png"
 import carusel_img1 from "../Images/carusel.png"
 import carusel_img2 from "../Images/carusel_img2.png"
 import carusel_img3 from "../Images/carusel_img3.png"
@@ -34,6 +33,8 @@ import Form_sending from "./Form_sending";
 import { Link } from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import Progressbar from "./Progressbar";
+
 
 
 
@@ -45,17 +46,8 @@ import 'aos/dist/aos.css';
 
   
 function Home_page() {
-    let obj = [
-        {
-            "siteName": "name",
-            "siteImg": {project_img1},
-            "siteGithubLink": "https://stackoverflow.com/questions/52909830/typeerror-cannot-read-property-classlist-of-null",
-    
-        },
-        
-    ]
-    console.log(obj[0])
-    
+
+
 
     const [toggle, setToggle] = useState(1)
 
@@ -77,7 +69,6 @@ function Home_page() {
         AOS.init({
             duration: 800, 
             easing: 'ease-in-out', 
-
         });
     }, []);
     window.addEventListener('scroll', () => {
@@ -88,8 +79,10 @@ function Home_page() {
 
 
 return( 
+    <>
         <div className="Home_container">
             <Navbar/>    
+     
             
                 <div className="introduction_part">
                     <div className="intro_img">
@@ -333,6 +326,7 @@ return(
                         </div>
                 </div>
 
+
                 <div className="Same_parts" id="Certificate">
                     <h4 className="H_title">Certification</h4>
                     <div className="project_rate">
@@ -409,7 +403,9 @@ return(
                 {/* Contact part */}
                 <Form_sending/>  
 
+
         </div>
+    </>
      );
 }
 

@@ -6,22 +6,21 @@ import PreLoader from './Project3 Component/PreLoader';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import View from './Project3 Component/View';
 import Navbar from './Project3 Component/Navbar';
-import Activity from './Project3 Component/Activity';
 
 
 
 
 
 function App() {
+
   
   return (
       
     <BrowserRouter>
-        <PreLoader/>
+        {/* <PreLoader/> */}
         <Routes>
            <Route path='/' element={<Home_page/>}/>
            <Route path='/View_page' element={<View/>}/>
-           <Route path="/Activity" element={<Activity/>}/>
         </Routes>
     </BrowserRouter>
   );
