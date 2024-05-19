@@ -1,13 +1,23 @@
-import React from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import { BrowserRouter } from 'react-router-dom';
+import PreLoader from './Project3 Component/PreLoader';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+
+
+
 root.render(
   <React.StrictMode>
-    <App />
+ 
+    
+    <BrowserRouter>
+     <App />
+    </BrowserRouter>
+
   </React.StrictMode>
 );
 

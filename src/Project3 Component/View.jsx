@@ -6,6 +6,7 @@ import {
   TransformComponent,
   useControls
 } from "react-zoom-pan-pinch";
+import Resume_download from './Resume_download';
 
 
 
@@ -33,9 +34,7 @@ const View = () => {
                   <button> <i className="fa-solid fa-house me-3"></i>Home</button>
               </Link>
 
-              <a className='View_btn' href={view_img} download>
-                <button><i className="fa-solid fa-download me-3"></i>Download Resume</button>
-              </a>
+              <Resume_download/>
             </div>
 
                 <div className='view_right'>

@@ -89,7 +89,7 @@
         font-size: 32px;
     }
     .project_rate{
-        height: 8px;
+        height: 4px;
         margin: 30px 0px;
     }
     .Project_category{
@@ -97,7 +97,8 @@
     }
     .Project_button{
         width: 28%;
-        font-size: 14px;
+        height: 47px;
+        font-size: 13px;
     }
     .Analyze_box{
         display: flex;
@@ -111,14 +112,14 @@
     }
     .Anaylyze_right{
         margin: 40px 0px 50px 0px;
-        height: 570px;
-        width: 85%;
+        height: 480px;
+        width: 90%;
         font-size: 42px;
         /* border: 2px solid red; */
     }
     .Anaylyze_right img{
         width: 80%;
-        height: 100%;
+        height: 45%;
         object-fit: cover;
     }
     .Anaylyze_right h4{
@@ -133,7 +134,7 @@
     } */
     .skills button{
         width: 35%;
-        margin: 40px auto;
+        margin: 45px auto;
     }
 
     /* ******Carusel****** */
@@ -151,16 +152,10 @@
     .certificate_image_holder img{
         width: 29%;
         height: 110px;
-        object-fit: contain;
-        border-radius: 25px;
-        padding: 10px;
+        object-fit: cover;
+        border-radius: 25px;;
     }
-    .certificate_image_holder img:hover{
-        width: 33%;
-        height: 135px;
-        object-fit: contain;
-        border-radius: 25px;
-    }
+
     .experience_writing{
         min-height: 1200px;
       }
@@ -342,7 +337,7 @@
         font-size: 32px;
     }
     .project_rate{
-        height: 8px;
+        height: 4px;
         margin: 30px 0px;
     }
     .Project_category{
@@ -350,6 +345,7 @@
     }
     .Project_button{
         width: 28%;
+        height: 48px;
         font-size: 14px;
     }
     .Analyze_box{
@@ -364,13 +360,13 @@
     }
     .Anaylyze_right{
         margin: 40px 0px 50px 0px;
-        height: 570px;
-        width: 85%;
+        height: 550px;
+        width: 90%;
         font-size: 42px;
     }
     .Anaylyze_right img{
         width: 80%;
-        height: 100%;
+        height: 50%;
         object-fit: cover;
     }
     .Anaylyze_right h4{
@@ -385,7 +381,7 @@
     } */
     .skills button{
         width: 35%;
-        margin: 40px auto;
+        margin: 45px auto;
     }
 
     /* ******Carusel****** */
@@ -403,16 +399,10 @@
     .certificate_image_holder img{
         width: 29%;
         height: 110px;
-        object-fit: contain;
-        border-radius: 25px;
-        padding: 10px;
-    }
-    .certificate_image_holder img:hover{
-        width: 33%;
-        height: 135px;
-        object-fit: contain;
+        object-fit: cover;
         border-radius: 25px;
     }
+
     .experience_writing{
         min-height: 1200px;
       }
@@ -507,33 +497,33 @@
                 /* Navbar */
         .P_Nav{
             width: 80%;
-            height: 320px;
+            height: 55px;
             /* border: 2px solid green; */
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            align-items: start;
-            flex-wrap: wrap;
-            padding: 50px 0px 0px 0px;
+            align-items: center;
+            flex-wrap: nowrap;
+            padding: 0px 0px 0px 0px;
         }
 
         .P_Nav li{
-            width: 43%;
-            height: 50px;
+            width: 17%;
+            height: 90%;
         }
         .P_Nav li a{
-            font-size: 18px;
+            font-size: 17px;
         }
 
         .Home_container{
             padding: 70px 60px 180px 60px;
         }
         .introduction_part{
-            padding: 340px 0px 50px 0px;
+            padding: 200px 0px 50px 0px;
         }
         .intro_img{
-            width: 470px;
-            height: 470px;
+            width: 400px;
+            height: 400px;
         }
         .introduction_part h2{
             font-size: 58px;
@@ -576,7 +566,7 @@
         }
         .about_right_side p{
             width: 84%;
-            font-size: 19px;
+            font-size: 17px;
             line-height: 30px;
             text-align: start;
         }
@@ -620,13 +610,13 @@
         .Anaylyze_right{
             margin: 40px 0px 50px 0px;
             height: 580px;
-            width: 80%;
+            width: 95%;
             min-height: 555px;
             font-size: 42px;
         }
         .Anaylyze_right img{
-            width: 85%;
-            height: 100%;
+            width: 80%;
+            height: 50%;
             object-fit: cover;
         }
 
@@ -663,16 +653,10 @@
         .certificate_image_holder img{
             width: 28%;
             height: 150px;
-            object-fit: contain;
-            border-radius: 25px;
-            padding: 10px;
-        }
-        .certificate_image_holder img:hover{
-            width: 33%;
-            height: 180px;
-            object-fit: contain;
+            object-fit: cover;
             border-radius: 25px;
         }
+     
         .experience_writing{
             min-height: 1050px;
         }
@@ -854,7 +838,7 @@
             font-size: 34px;
         }
         .project_rate{
-            height: 6px;
+            height: 4px;
             margin: 45px 0px;
         }
         .Project_category{
@@ -891,7 +875,7 @@
             font-size: 42px;
         }
         .Anaylyze_right img{
-            width: 77%;
+            width: 80%;
             height: 320px;
             object-fit: cover;
         }
@@ -915,7 +899,7 @@
 
 
         .Same_parts{
-            padding: 140px 0px 0px 0px;
+            padding: 150px 0px 0px 0px;
         }
         .certificate_image_holder{
             width: 100%;
@@ -928,16 +912,10 @@
         .certificate_image_holder img{
             width: 23%;
             height: 180px;
-            object-fit: contain;
+            object-fit: cover;
             border-radius: 25px;
-            padding: 10px;
-            transition: .3s ease-in-out;
         }
-        .certificate_image_holder img:hover{
-            width: 25%;
-            height: 207px;
-            object-fit: contain;
-        }
+   
         .experience_writing{
             min-height: 1050px;
         }
@@ -973,8 +951,19 @@
         .e_center_img1{
             width: 90px;
             height: 90px;
+            position: absolute;
             top: 30%;
+            animation-name: experience_img1;
+            animation-duration: 3s;
+            animation-delay: 2s;
+            animation-fill-mode: both;
         }
+
+        @keyframes experience_img1 {
+            from {top: 0%;}
+            to {top: 30%;}
+        }
+
         .e_center_img2{
             width: 90px;
             height: 90px;

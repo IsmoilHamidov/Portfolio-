@@ -1,26 +1,31 @@
-import React from 'react';
-
+import React, { useEffect } from 'react';
 
 function Progressbar() {
+    useEffect(() => {
+        function updateProgressBar() {
+            const { scrollTop, scrollHeight } = document.documentElement;
+            const scrollPercent = `${(scrollTop / (scrollHeight - window.innerHeight)) * 100}%`;
+            
+            // Get the progress bar element
+            const progressBar = document.querySelector('#progress-bar');
 
-    function UpdateProgressBar() {
-        const { scrollTop, scrollHeight } = document.
-        documentElement;
-        const scrollPercent = `${(scrollTop / (scrollHeight -
-         window.innerHeight)) * 100}%`;
+            // Check if the progress bar element exists before accessing its style property
+            if (progressBar) {
+                progressBar.style.setProperty('--progress', scrollPercent);
+            }
+        }
 
-        //  updating the progress var to that total height
-        document.querySelector('#progress-bar').style.setProperty('--progress', scrollPercent);
-    }
+        // Add event listener for scroll when component mounts
+        document.addEventListener('scroll', updateProgressBar);
 
-    //even listen for the scroll
-    document.addEventListener('scroll', UpdateProgressBar);
-
+        // Cleanup function to remove event listener when component unmounts
+        return () => {
+            document.removeEventListener('scroll', updateProgressBar);
+        };
+    }, []); // Empty dependency array to run effect only once on mount
 
     return (
-        <div id="progress-bar">
-
-        </div>
+        <div id="progress-bar"></div>
     );
 }
 

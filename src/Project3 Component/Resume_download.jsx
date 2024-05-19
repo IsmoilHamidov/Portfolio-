@@ -1,5 +1,5 @@
 import React from "react";
-import pdf from "../Images/"
+import pdf from "../Rezume/rezume.pdf"
 
 
 function Resume_download() {
@@ -20,7 +20,9 @@ function Resume_download() {
 
 
         <>
-
+           <div className="View_btn">
+                <button onClick={onButtonClick}><i className="fa-solid fa-download me-3"></i>Download Resume</button>
+            </div> 
         </>
      );
 }

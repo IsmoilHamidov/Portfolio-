@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef  } from "react";
 import intro_img from "../Images/my_img2.jpg"
 import about_img from "../Images/about_img2-transformed.jpeg"
 import carusel_img1 from "../Images/carusel.png"
@@ -34,6 +34,7 @@ import { Link } from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import Progressbar from "./Progressbar";
+import Animation_progress from "./Animation_progress";
 
 
 
@@ -46,8 +47,6 @@ import Progressbar from "./Progressbar";
 
   
 function Home_page() {
-
-
 
     const [toggle, setToggle] = useState(1)
 
@@ -129,7 +128,7 @@ return(
                             <h4>About me </h4>
                             <p>I am actively seeking opportunities to apply my acquired skills and knowledge to real-world projects.
                                  My educational background has equipped me with a foundation in Html and Css and programming language 
-                                 such as Java Script . Additionally, I have gained practical experience through hands-on projects, both independently and collaboratively.</p>
+                                 such as Java Script . Additionally, I have been gaining practical experience through hands-on projects, both independently and collaboratively.</p>
                         </div>
                     </div>
                 </div>
@@ -299,14 +298,16 @@ return(
                         <div className="project_rate">
                             <div className="blue_rate"></div>
                         </div>
-                        <button className="Project_button"data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">Languages</button>
+                        <button className="Project_button skills_button"data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">Languages</button>
 
-                        <div className="Skills_carusel_box">
+
+
+                        <Animation_progress/>
+                        {/* <div className="Skills_carusel_box">
                             <div id="carouselExampleControlsNoTouching" className="carousel slide" data-bs-touch="false" data-bs-interval="false">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
                                             <img src={carusel_img1} className="d-block" aria-hidden="true" alt="rasm_bor"/>
-                                            <span className="visually-hidden">Previous</span>
                                         </div>
                                         <div class="carousel-item">
                                             <img src={carusel_img2} className="d-block" aria-hidden="true" alt="rasm_bor"/>
@@ -323,7 +324,7 @@ return(
                                         <img src={carusel_btn2} alt="rasm_bor" aria-hidden="true" />
                                     </button>
                             </div>
-                        </div>
+                        </div> */}
                 </div>
 
 
@@ -341,7 +342,7 @@ return(
 
 
 
-                {/* Experience part Scrollspy */}
+        {/* Experience part Scrollspy */}
                 <div className="Experience_part Same_parts" >
                         <h4 className="text-end H_title">Experience</h4>
                         <div className="project_rate">
@@ -358,7 +359,7 @@ return(
                             <div className="row experience_writing">
                                 <div className="d-none d-md-flex col-md-5 E_writing_box">
                                     <div>
-                                        <a className="E_writing_item" href="#section1">
+                                        <a className="E_writing_item">
                                             <h5>Technical Content Writer</h5>
                                             <h6>GeeksforGeeks | 11-2023 – 02-2024</h6>
                                             <p>As a content creator, I've authored and published numerous articles on technical topics like Power BI, Python, Data Science, and Machine Learning. My focus is on simplifying complex concepts, ensuring accessibility for all audiences. Each article is carefully crafted to translate intricate jargon into easily understandable terms, fostering a deep understanding. I stay current with the latest developments in these fields, delivering up-to-date content that empowers readers to navigate and excel in the ever-evolving landscape of technology.</p>
@@ -366,21 +367,11 @@ return(
                                     </div>
                                 </div>
 
-                                <div className="col-3 col-md-2 E_writing_center_box  list-group"  id="list-example">
+                                <div className="col-3 col-md-2 E_writing_center_box" >
                                     <div></div>
-                                    <img src={experience_img} className="e_center_img1" id="section1"/>
-                                    <img src={experience_img} className="e_center_img2" id="section2"/>
-                                    <img src={experience_img}  className="d-block d-md-none e_center_img3" id="section3"/>
-
-                                            {/* <a class="list-group-item list-group-item-action e_center_img1" href="#list-item-1">
-                                                    <img src={experience_img}/>
-                                            </a> 
-                                            <a class="list-group-item list-group-item-action e_center_img2 " href="#list-item-2">
-                                                    <img src={experience_img}/>
-                                            </a> 
-                                            <a class="list-group-item list-group-item-action e_center_img3" href="#list-item-3">
-                                                    <img src={experience_img}  className="d-block d-md-none"/>
-                                            </a>  */}
+                                    <img src={experience_img} className="e_center_img1" />
+                                    <img src={experience_img} className="e_center_img2" />
+                                    <img src={experience_img}  className="d-block d-md-none e_center_img3"/>
                                 </div>
 
 
@@ -402,6 +393,8 @@ return(
 
                 {/* Contact part */}
                 <Form_sending/>  
+
+            
 
 
         </div>
