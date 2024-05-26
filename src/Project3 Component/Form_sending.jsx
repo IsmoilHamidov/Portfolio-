@@ -38,7 +38,8 @@ const Form_sending = () => {
             if (response.ok) {
                 // Redirect to a success page or show a success message
                 window.location.href = '/success';
-                alert("Thanks for your message.. I will contact with you soon!")
+                alert("Thanks for your message! I will contact with you soon!"
+                )
             } else {
                 throw new Error('Failed to send message');
             }
