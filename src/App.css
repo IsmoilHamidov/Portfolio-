@@ -328,7 +328,9 @@ body {
 .skills button{
   margin: 85px auto 120px auto;
 }
-
+.skills button:focus{
+  background-color: #24272C;
+}
 .Skills_carusel_box{
   width: 100%;
   height: 400px;

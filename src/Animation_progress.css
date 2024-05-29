@@ -117,6 +117,25 @@
 }
 
 
+@media screen and (min-width: 768px){
+    .animation_container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .animation_container .circle{
+        width: 210px;
+        height: 210px;
+    }
+
+    .animation_container .circle::after{
+        width: 130px;
+        height: 130px;
+    }
+}
+
 @media screen and (min-width: 1100px){
     .animation_container{
         width: 100%;

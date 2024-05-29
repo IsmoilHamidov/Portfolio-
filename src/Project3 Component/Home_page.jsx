@@ -125,9 +125,9 @@ return(
 
                         <div className="col-sm-12 col-md-7 about_right_side" data-aos="fade-up">
                             <h4>About me </h4>
-                            <p>I am actively seeking opportunities to apply my acquired skills and knowledge to real-world projects.
+                            <p>I am actively looking for possibilities to use my learned skills and expertise to real-world initiatives.
                                  My educational background has equipped me with a foundation in Html and Css and programming language 
-                                 such as Java Script . Additionally, I have been gaining practical experience through hands-on projects, both independently and collaboratively.</p>
+                                 such as JavaScript. Additionally, I have been gaining practical experience through hands-on projects, both independently and collaboratively.</p>
                         </div>
                     </div>
                 </div>
