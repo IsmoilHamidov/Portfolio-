@@ -30,17 +30,17 @@ function AnimationProgress() {
 
   return (
     <div className="animation_container">
-      <div className="circle" data-degree='70' data-color="#1ca7fb" ref={el => (circlesRef.current[0] = el)}>
+      <div className="circle" data-degree='75' data-color="#1ca7fb" ref={el => (circlesRef.current[0] = el)}>
         <h2 className="number">84 <span>%</span></h2>
         <h4>Html</h4>
       </div>
 
-      <div className="circle" data-degree='60' data-color="#ff2972" ref={el => (circlesRef.current[1] = el)}>
+      <div className="circle" data-degree='75' data-color="#ff2972" ref={el => (circlesRef.current[1] = el)}>
         <h2 className="number">58 <span>%</span></h2>
         <h4>Css</h4>
       </div>
 
-      <div className="circle" data-degree='40' data-color="#fee800" ref={el => (circlesRef.current[2] = el)}>
+      <div className="circle" data-degree='55' data-color="#fee800" ref={el => (circlesRef.current[2] = el)}>
         <h2 className="number">94 <span>%</span></h2>
         <h4>JS</h4>
       </div>
