@@ -3,11 +3,11 @@ import './App.css';
 import './Responsive.css';
 import './PreLoader.css'
 import './Animation_progress.css'
-import Home_page from './Project3 Component/Home_page';
 import PreLoader from './Project3 Component/PreLoader';
 import { Routes, Route } from 'react-router-dom';
 import View from './Project3 Component/View';
 import React, {useState, useEffect} from 'react';
+import Home_Page from './Project3 Component/Home_page';
 
 
 
@@ -29,7 +29,7 @@ function App() {
       { isLoading ?  <PreLoader/> :
         
         <Routes>
-           <Route path='/' element={<Home_page/>}/>
+           <Route path='/' element={<Home_Page/>}/>
            <Route path='/View_page' element={<View/>}/>
         </Routes>
       }

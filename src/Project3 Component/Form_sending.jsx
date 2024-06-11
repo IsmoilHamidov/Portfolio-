@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import contact_img from "../Images/contact_img-removebg-preview.png";
 
 
-const Form_sending = () => {
+const Form_Sending = () => {
     const [formData, setFormData] = useState({
         fname: '',
         email: '',
@@ -98,4 +98,4 @@ const Form_sending = () => {
     );
 };
 
-export default Form_sending;
+export default Form_Sending;

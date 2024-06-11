@@ -23,11 +23,11 @@ import p_p10 from "../Images/p_p10.1.webp"
 import p_p11 from "../Images/p_p11.1.jpg"
 import p_p12 from "../Images/p_p12.1.webp"
 import { Typewriter } from "react-simple-typewriter";
-import Form_sending from "./Form_sending";
+import Form_Sending from "./Form_Sending";
 import { Link } from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
-import Animation_progress from "./Animation_progress";
+import AnimationProgress from "./Animation_Progress";
 
 
 
@@ -35,7 +35,7 @@ import Animation_progress from "./Animation_progress";
 
 
 
-function Home_page() {
+function Home_Page() {
 
     const [toggle, setToggle] = useState(1)
 
@@ -199,7 +199,7 @@ return(
 
                                     <div className="col-md-7 Analyze_box">
                                         <div className={ImgToggle === 1 ? "Anaylyze_right" :"second_content"}>     
-                                            <img src={p_p8} alt="" />
+                                            <img src={p_p8} alt="rasm bor" />
                                             <h4>Tere</h4>
                                             <p> Download app, Save money, Make friends!</p>
                                             <i className="fa-brands fa-github"></i>
@@ -291,7 +291,7 @@ return(
 
 
 
-                        <Animation_progress/>
+                        <AnimationProgress/>
                         {/* <div className="Skills_carusel_box">
                             <div id="carouselExampleControlsNoTouching" className="carousel slide" data-bs-touch="false" data-bs-interval="false">
                                     <div class="carousel-inner">
@@ -336,7 +336,7 @@ return(
 
 
                 {/* Contact part */}
-                <Form_sending/>  
+                <Form_Sending/>  
 
         
         </div>
@@ -344,4 +344,4 @@ return(
      );
 }
 
-export default Home_page;
+export default Home_Page;
