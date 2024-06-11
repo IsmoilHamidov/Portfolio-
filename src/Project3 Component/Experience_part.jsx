@@ -1,7 +1,7 @@
 import React from "react";
 import experience_img from "../Images/experience_img.png";
 
-function Experience_part() {
+function ExperiencePart() {
 
 
     return (
@@ -55,4 +55,4 @@ function Experience_part() {
     );
 }
 
-export default Experience_part;
+export default ExperiencePart;

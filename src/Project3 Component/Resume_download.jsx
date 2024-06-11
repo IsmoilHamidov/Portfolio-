@@ -2,7 +2,7 @@ import React from "react";
 import pdf from "../Rezume/rezume.pdf"
 
 
-function Resume_Download() {
+function ResumeDownload() {
 
     const onButtonClick = () => {
         fetch(pdf).then(response => {
@@ -27,4 +27,4 @@ function Resume_Download() {
      );
 }
 
-export default Resume_Download;
+export default ResumeDownload;
