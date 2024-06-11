@@ -74,7 +74,7 @@ return(
             
                 <div className="introduction_part">
                     <div className="intro_img">
-                        <img src={intro_img} alt="image" />
+                        <img src={intro_img} alt="rasm bor" />
                     </div>
                     <h4>Hello</h4>
                     <h2>I’m Ismoilxo'ja</h2>
@@ -177,9 +177,9 @@ return(
 
 
                                     <div className="d-flex d-md-none Analyze_box">
-                                        <img src={project_img5} onClick={()=>ImgUpdateToggle(1)} />
-                                        <img src={project_img6} onClick={()=>ImgUpdateToggle(2)} />
-                                        <img src={project_img7} onClick={()=>ImgUpdateToggle(3)}/>
+                                        <img src={project_img5} onClick={()=>ImgUpdateToggle(1)}  alt="rasm_bor"/>
+                                        <img src={project_img6} onClick={()=>ImgUpdateToggle(2)}  alt="rasm_bor"/>
+                                        <img src={project_img7} onClick={()=>ImgUpdateToggle(3)}  alt="rasm_bor"/>
                                     </div>
                                 </div>
                         </div>
