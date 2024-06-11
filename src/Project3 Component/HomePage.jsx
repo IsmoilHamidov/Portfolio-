@@ -23,11 +23,11 @@ import p_p10 from "../Images/p_p10.1.webp"
 import p_p11 from "../Images/p_p11.1.jpg"
 import p_p12 from "../Images/p_p12.1.webp"
 import { Typewriter } from "react-simple-typewriter";
-import Form_Sending from "./Form_Sending";
 import { Link } from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
-import AnimationProgress from "./Animation_Progress";
+import AnimationProgress from "./AnimationProgress";
+import FormSending from "./FormSending";
 
 
 
@@ -35,7 +35,7 @@ import AnimationProgress from "./Animation_Progress";
 
 
 
-function Home_Page() {
+function HomePage() {
 
     const [toggle, setToggle] = useState(1)
 
@@ -336,7 +336,7 @@ return(
 
 
                 {/* Contact part */}
-                <Form_Sending/>  
+                <FormSending/>  
 
         
         </div>
@@ -344,4 +344,4 @@ return(
      );
 }
 
-export default Home_Page;
+export default HomePage;
