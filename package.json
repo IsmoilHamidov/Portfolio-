@@ -14,7 +14,7 @@
     "react-dom": "^18.2.0",
     "react-image-pan-zoom-rotate": "^1.6.0",
     "react-router-dom": "^6.21.3",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^3.0.1",
     "react-simple-typewriter": "^5.0.1",
     "react-spring": "^9.7.3",
     "react-zoom-pan-pinch": "^3.4.4",
@@ -46,6 +46,8 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/plugin-transform-private-property-in-object": "^7.24.7",
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.2"
