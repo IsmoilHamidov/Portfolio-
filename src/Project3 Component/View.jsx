@@ -2,7 +2,8 @@ import React from 'react';
 import view_img from "../Images/My CV_page-0001 (1).jpg"
 import { Link } from "react-router-dom";
 import {TransformWrapper,TransformComponent,useControls} from "react-zoom-pan-pinch";
-import ResumeDownload from './Resume_Download';
+import ResumeDownload from './ResumeDownload';
+
 
 
 
@@ -29,7 +30,6 @@ const View = () => {
               <Link to="/" className='View_btn'>
                   <button> <i className="fa-solid fa-house me-3"></i>Home</button>
               </Link>
-
               <ResumeDownload/>
             </div>
 
