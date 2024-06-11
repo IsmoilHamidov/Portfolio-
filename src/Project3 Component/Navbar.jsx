@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Resume from "../Images/My CV_page-0001 (1).jpg"
 import Progressbar from "./Progressbar";
 import { Link } from "react-router-dom";
 

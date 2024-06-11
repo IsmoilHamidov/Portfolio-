@@ -1,11 +1,7 @@
 import React from 'react';
 import view_img from "../Images/My CV_page-0001 (1).jpg"
 import { Link } from "react-router-dom";
-import {
-  TransformWrapper,
-  TransformComponent,
-  useControls
-} from "react-zoom-pan-pinch";
+import {TransformWrapper,TransformComponent,useControls} from "react-zoom-pan-pinch";
 import Resume_download from './Resume_download';
 
 

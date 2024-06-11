@@ -1,13 +1,8 @@
 import React from "react";
 import Navbar from "./Navbar";
-import { useState, useEffect, useRef  } from "react";
+import { useState, useEffect} from "react";
 import intro_img from "../Images/my_img2.jpg"
 import about_img from "../Images/about_img2-transformed.jpeg"
-// import carusel_img1 from "../Images/carusel.png"
-// import carusel_img2 from "../Images/carusel_img2.png"
-// import carusel_img3 from "../Images/carusel_img3.png"
-// import carusel_btn1 from "../Images/carusel_btn1.png"
-// import carusel_btn2 from "../Images/carusel_btn2.png"
 import certificate_img1 from "../Images/certificate_Add_img1.png"
 import certificate_img2 from "../Images/certificate_img1.jpg"
 import certificate_img3 from "../Images/certificate_img3.jpeg"
@@ -33,7 +28,6 @@ import { Link } from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import Animation_progress from "./Animation_progress";
-// import Experience_part from "./Experience_part";
 
 
 
@@ -41,10 +35,6 @@ import Animation_progress from "./Animation_progress";
 
 
 
-
-
-
-  
 function Home_page() {
 
     const [toggle, setToggle] = useState(1)
