@@ -35,7 +35,7 @@ function App() {
       }
 
         {/* <Routes>
-           <Route path='/' element={<Home_page/>}/>
+           <Route path='/' element={<HomePage/>}/>
            <Route path='/View_page' element={<View/>}/>
         </Routes> */}
     </>

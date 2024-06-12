@@ -153,7 +153,7 @@ return(
                                             <h4>NFT Marketplace</h4>
                                             <p>Discover digital art & Collect NFTs</p>
                                             <i className="fa-brands fa-github"></i>
-                                            <a href="https://github.com/Hamidov2004/html-css-first-project.git" target="_blank" rel="noreferrer">Git Hub link</a>
+                                            <a href="https://github.com/Hamidov2004/html-css-first-project.git" target="_blank" rel="noopener noreferrer">Git Hub link</a>
                                         </div>
 
                                         <div className={ImgToggle === 2 ? "Anaylyze_right" :"second_content"} >     
@@ -161,7 +161,7 @@ return(
                                             <h4>Travel Agency</h4>
                                             <p> It’s a Big World Out There, Go Explore</p>
                                             <i className="fa-brands fa-github"></i>
-                                            <a href="https://github.com/Hamidov2004/Travel-Agency.git" target="_blank" rel="noreferrer">Git Hub link</a>
+                                            <a href="https://github.com/Hamidov2004/Travel-Agency.git" target="_blank" rel="noopener noreferrer">Git Hub link</a>
                                             
                                         </div>
 
@@ -170,7 +170,7 @@ return(
                                             <h4>Crypter</h4>
                                             <p>The new creative economy.</p>
                                             <i className="fa-brands fa-github"></i>
-                                            <a href="https://github.com/Hamidov2004/htm-css_lesson_project.git" target="_blank" rel="noreferrer">Git Hub link</a>
+                                            <a href="https://github.com/Hamidov2004/htm-css_lesson_project.git" target="_blank" rel="noopener noreferrer">Git Hub link</a>
                                         </div>
                                     </div>
                                 {/* */}
@@ -203,7 +203,7 @@ return(
                                             <h4>Tere</h4>
                                             <p> Download app, Save money, Make friends!</p>
                                             <i className="fa-brands fa-github"></i>
-                                            <a href="https://github.com/Hamidov2004/TERE-.git" target="blank" rel="noreferrer">Git Hub link</a>
+                                            <a href="https://github.com/Hamidov2004/TERE-.git" target="blank" rel="noopener noreferrer">Git Hub link</a>
                                         </div>
 
                                         <div className={ImgToggle === 2 ? "Anaylyze_right" :"second_content"}>     
@@ -211,7 +211,7 @@ return(
                                             <h4>Calculator</h4>
                                             <p>The calculator project is one of my practise works</p>
                                             <i className="fa-brands fa-github"></i>
-                                            <a href="https://github.com/Hamidov2004/calculator_practise.git" target="blank" rel="noreferrer">Git Hub link</a>
+                                            <a href="https://github.com/Hamidov2004/calculator_practise.git" target="blank" rel="noopener noreferrer">Git Hub link</a>
                                         </div>
 
                                         <div className={ImgToggle === 3 ? "Anaylyze_right" :"second_content"}>     
@@ -219,7 +219,7 @@ return(
                                             <h4>Adding to shopping cart</h4>
                                             <p>JavaScript classwork</p>
                                             <i className="fa-brands fa-github"></i>
-                                            <a href="https://github.com/Hamidov2004/JavaScript-lesson-project.git" target="blank" rel="noreferrer">Git Hub link</a>
+                                            <a href="https://github.com/Hamidov2004/JavaScript-lesson-project.git" target="blank" rel="noopener noreferrer">Git Hub link</a>
                                         </div>
 
                                     </div>
@@ -250,7 +250,7 @@ return(
                                             <h4>Crypto Property</h4>
                                             <p>Your reliable cryptocurrency real estate service</p>
                                             <i className="fa-brands fa-github"></i>
-                                            <a href="https://github.com/Hamidov2004/CryptoProperty.git" target="blank" rel="noreferrer">Git Hub link</a>
+                                            <a href="https://github.com/Hamidov2004/CryptoProperty.git" target="blank" rel="noopener noreferrer">Git Hub link</a>
                                         </div>
 
                                         <div className={ImgToggle === 2 ? "Anaylyze_right" :"second_content"}>     
