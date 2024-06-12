@@ -337,7 +337,6 @@
         object-fit: cover;
     }
     .about_right_side{
-        width: 100%;
         display: grid;
         align-content: center;
         justify-items: center;
@@ -821,7 +820,7 @@
             padding: 70px 120px 150px 120px;
         }
         .introduction_part{
-            padding: 120px 0px 50px 0px;
+            padding: 120px 0px 20px 0px;
         }
         .intro_img{
             width: 470px;
@@ -840,11 +839,12 @@
         }
         .intro_last_item{
             width: 35%;
+            height: auto;
             margin: 45px 0px 0px 0px;
-        
         }
         .intro_last_item_box{
             width: 40%;
+            height: 57px;
             font-size: 20px;
         }
         /* .About_me{
@@ -857,7 +857,7 @@
         }
         .about_left_side img{
             width: 80%;
-            height: 89%;
+            height: 82%;
             object-fit: cover;
         }
         .about_right_side{
@@ -868,8 +868,8 @@
         }
         .about_right_side p{
             width: 84%;
-            font-size: 19px;
-            line-height: 30px;
+            font-size: 20px;
+            line-height: 33px;
             text-align: start;
             margin-top: 0px;
         }

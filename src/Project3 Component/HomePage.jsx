@@ -76,7 +76,7 @@ return(
                     <div className="intro_img">
                         <img src={intro_img} alt="rasm bor" />
                     </div>
-                    <h4>Hi!</h4>
+                    <h4>Hello</h4>
                     <h2>I’m Ismoilxo'ja</h2>
                     <div className="third_heading" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
                         Front-end
