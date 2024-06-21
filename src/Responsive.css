@@ -42,7 +42,7 @@
         font-size: 37px;
     }
     .third_heading{
-        font-size: 21px;
+        font-size: 18px;
         margin: 2px 0px 20px 0px;
     }
     .introduction_part p{
@@ -55,9 +55,9 @@
     }
     .intro_last_item_box{
         padding: 0px;
-        width: 42%;
+        width: 43%;
         height: 80%;
-        font-size: 16px;
+        font-size: 14px;
     }
     /* .About_me{
         border: 2px solid blue;
@@ -68,7 +68,7 @@
         justify-content: center;
     }
     .about_left_side img{
-        width: 70%;
+        width: 80%;
         height: 100%;
         object-fit: contain;
     }
@@ -96,12 +96,12 @@
         margin: 30px 0px;
     }
     .Project_category{
-        margin: 50px 0px 30px 0px;
+        margin: 40px 0px 10px 0px;
     }
     .Project_button{
-        width: 29%;
-        height: 47px;
-        font-size: 12px;
+        width: 30%;
+        height: 40px;
+        font-size: 10px;
     }
     .Analyze_box{
         display: flex;
@@ -110,8 +110,8 @@
         height: auto;
     }
     .Analyze_box img{
-        width: 70px;
-        height: 70px;
+        width: 65px;
+        height: 65px;
     }
     .Anaylyze_right{
         margin: 40px 0px 50px 0px;
@@ -125,8 +125,8 @@
         object-fit: cover;
     }
     .Anaylyze_right h4{
-        font-size: 24px;
-        margin: 20px 0px;
+        font-size: 20px;
+        margin: 15px 0px;
     }
     .Anaylyze_right p{
         font-size: 16px;
@@ -155,8 +155,8 @@
       
     }
     .certificate_image_holder img{
-        width: 70%;
-        max-height: 150px;
+        width: 74%;
+        max-height: 140px;
         object-fit: cover;
         border-radius: 25px;
     }
@@ -227,7 +227,7 @@
     .View_container{
         flex-direction: column;
         justify-content: flex-start;
-        height: 110vh;
+        height: 120vh;
     }
     .view_left{
         width: 100%;
@@ -248,7 +248,7 @@
         margin-top: 40px;
     }
     .view_right_img{
-        width: 60%;
+        width: 70%;
     }
     .Zoom_btns{
         width: 18%;
@@ -488,7 +488,7 @@
     .View_container{
         flex-direction: column;
         justify-content: flex-start;
-        height: 140vh;
+        height: 150vh;
     }
     .view_left{
         width: 100%;
@@ -509,7 +509,7 @@
         margin-top: 40px;
     }
     .view_right_img{
-        width: 60%;
+        width: 70%;
     }
     .Zoom_btns{
         width: 18%;
@@ -756,7 +756,7 @@
         .View_container{
             flex-direction: column;
             justify-content: flex-start;
-            height: 180vh;
+            height: 190vh;
         }
         .view_left{
             width: 100%;
@@ -775,7 +775,7 @@
             height: auto;
         }
         .view_right_img{
-            width: 50%;
+            width: 60%;
             height: auto;
             object-fit: fill;
             border-radius: 20px;

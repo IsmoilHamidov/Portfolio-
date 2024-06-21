@@ -20,7 +20,6 @@ const FormSending = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        // Check if all form fields are filled
         if (formData.fname && formData.email && formData.comment) {
             try {
                 // Send form data to the Telegram bot

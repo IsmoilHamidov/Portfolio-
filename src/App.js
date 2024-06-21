@@ -26,18 +26,18 @@ function App() {
   
   return (
     <>
-      { isLoading ?  <PreLoader/> :
+      {/* { isLoading ?  <PreLoader/> :
         
         <Routes>
            <Route path='/' element={<HomePage/>}/>
            <Route path='/View_page' element={<View/>}/>
         </Routes>
-      }
+      } */}
 
-        {/* <Routes>
+        <Routes>
            <Route path='/' element={<HomePage/>}/>
            <Route path='/View_page' element={<View/>}/>
-        </Routes> */}
+        </Routes>
     </>
   );
 }
