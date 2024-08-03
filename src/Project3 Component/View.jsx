@@ -1,5 +1,5 @@
 import React from 'react';
-import view_img from "../Images/My CV_page-0001 (1).jpg"
+import view_img from "../Images/My_cv.jpg"
 import { Link } from "react-router-dom";
 import {TransformWrapper,TransformComponent,useControls} from "react-zoom-pan-pinch";
 import ResumeDownload from './ResumeDownload';

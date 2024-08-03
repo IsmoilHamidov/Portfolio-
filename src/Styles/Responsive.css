@@ -779,7 +779,7 @@
             height: auto;
             object-fit: fill;
             border-radius: 20px;
-            filter: drop-shadow(-17px 15px 4px #00000040);
+            filter: drop-shadow(-14px 0px 5px #00000040);
              margin: 0 auto;
           }
         .Zoom_btns{
@@ -1060,7 +1060,6 @@
             height: auto;
             object-fit: fill;
             border-radius: 20px;
-            filter: drop-shadow(-17px 15px 4px #00000040);
              margin: 0 auto;
           }
         .Zoom_btns{

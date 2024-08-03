@@ -14,6 +14,7 @@ import project_img9 from "../Images/project_part_img9.png"
 import project_img10 from "../Images/project_part_img10.png"
 import project_img11 from "../Images/project_part_img11.png"
 import project_img12 from "../Images/project_part_img12.png"
+import project_img13 from "../Images/Project_part_img13.png"
 import p_p5 from "../Images/p_p5.1.png"
 import p_p6 from "../Images/p_p6.1.jpg"
 import p_p7 from "../Images/p_p7.1.png"
@@ -22,6 +23,7 @@ import p_p9 from "../Images/p_p9.1.jpg"
 import p_p10 from "../Images/p_p10.1.webp"
 import p_p11 from "../Images/p_p11.1.jpg"
 import p_p12 from "../Images/p_p12.1.webp"
+import p_p13 from "../Images/p_p13.png"
 import { Typewriter } from "react-simple-typewriter";
 import { Link } from "react-router-dom";
 import AOS from 'aos';
@@ -240,7 +242,7 @@ return(
                             <div className="row">
                                     <div className="col-md-5 d-none d-md-flex Analyze_box">    
                                         <img src={project_img11} onClick={()=>ImgUpdateToggle(1)} alt="rasm_bor"/>
-                                        <img src={project_img12} onClick={()=>ImgUpdateToggle(2)} alt="rasm_bor" />
+                                        <img src={project_img13} onClick={()=>ImgUpdateToggle(2)} alt="rasm_bor" />
                                         <img src={project_img12} onClick={()=>ImgUpdateToggle(3)} alt="rasm_bor" />
                                     </div>
 
@@ -254,16 +256,17 @@ return(
                                         </div>
 
                                         <div className={ImgToggle === 2 ? "Anaylyze_right" :"second_content"}>     
-                                            <img src={p_p12} alt="rasm_bor" />
-                                            <h4>Soon</h4>
-                                            <p>Practsinng and Prepearing for new projects</p>
+                                            <img src={p_p13} alt="rasm_bor" />
+                                            <h4>IT-Bilim Imitation Project</h4>
+                                            <p>IT Knowledge Development Center - IT Bilim</p>
                                             <i className="fa-brands fa-github"></i>
+                                            <a href="https://github.com/IsmoilHamidov/IT-bilim-Imitation-project.git" target="blank" rel="noopener noreferrer">Git Hub link</a>
                                         </div>
 
                                         <div className={ImgToggle === 3 ? "Anaylyze_right" :"second_content"}>     
                                             <img src={p_p12} alt="rasm_bor" />
                                             <h4>Soon</h4>
-                                            <p>Practsinng and Prepearing for new projects</p>
+                                            <p>Practsing and Prepearing for new projects</p>
                                             <i className="fa-brands fa-github"></i>
                                         </div>
                                         
