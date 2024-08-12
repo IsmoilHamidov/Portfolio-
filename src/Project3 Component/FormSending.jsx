@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+ import React, { useState } from 'react';
 import contact_img from "../Images/contact_img-removebg-preview.png";
 
 
@@ -25,7 +25,7 @@ const FormSending = () => {
                 // Send form data to the Telegram bot
                 const telegramBotId = '7126793635:AAHizkdnI8rwdZRUqkA9sN4XYFEEyk-L7aU';
                 const chatId = '966230102';
-                const message = `Name: ${formData.fname}; Email: ${formData.email}; Comment: ${formData.comment}`;
+                const message = `Name: ${formData.fname}; \nEmail: ${formData.email}; \nComment: ${formData.comment}`;
 
                 const response = await fetch(`https://api.telegram.org/bot${telegramBotId}/sendMessage`, {
                     method: 'POST',

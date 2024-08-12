@@ -274,7 +274,7 @@ return(
 
                                         <div className="d-flex d-md-none Analyze_box">
                                             <img src={project_img11} onClick={()=>ImgUpdateToggle(1)} alt="rasm_bor" />
-                                            <img src={project_img12} onClick={()=>ImgUpdateToggle(2)} alt="rasm_bor" />
+                                            <img src={project_img13} onClick={()=>ImgUpdateToggle(2)} alt="rasm_bor" />
                                             <img src={project_img12} onClick={()=>ImgUpdateToggle(3)} alt="rasm_bor" />
                                         </div>
                                 </div>
